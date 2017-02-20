@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_empty" type="id"/>
+    <item name="btn_error" type="id"/>
+    <item name="tv_error" type="id"/>tv
+</resources>
