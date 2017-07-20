@@ -1,5 +1,7 @@
 # LoadingLayoutDemo
 
+[简介](https://mavsforlife.github.io/2017/07/20/loadingLayoutDemo/)
+
 ![image](https://github.com/mavsforlife/LoadingLayoutDemo/blob/master/app/src/main/assets/simple_use.gif)
 
 #### 用法
