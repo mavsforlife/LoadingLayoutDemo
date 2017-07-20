@@ -12,7 +12,7 @@
     <string name="tab_n_error">tab%d加载失败</string>
     <string name="tip_from_xml_error">tip：直接在xml中设置errorView的属性</string>
     <string name="tip_from_xml_empty">tip：直接在xml中设置emptyView的属性</string>
-    <string name="set_activity">SetLoadingActivity</string>
+    <string name="set_loading_activity">SetLoadingActivity</string>
     <string name="tab_activity">TabActivity</string>
     <string name="simple_activity">SimpleActivity</string>
 </resources>
