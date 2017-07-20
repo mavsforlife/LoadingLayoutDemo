@@ -2,8 +2,10 @@ package com.victor.loadinglayoutdemo.activity;
 
 import android.content.Context;
 import android.content.Intent;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
@@ -22,6 +24,9 @@ public class SetLoadingActivity extends AppCompatActivity implements View.OnClic
     }
 
     private void initView() {
+        setTitle(R.string.set_loading_activity);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
         loadingLayout = (LoadingLayout) findViewById(R.id.loading_layout);
         Button mBtnEmpty = (Button) findViewById(R.id.btn_empty_view);
         Button mBtnError = (Button) findViewById(R.id.btn_error_view);
@@ -72,6 +77,16 @@ public class SetLoadingActivity extends AppCompatActivity implements View.OnClic
 
             default:
                 break;
+        }
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                this.finish();
+            default:
+                return super.onOptionsItemSelected(item);
         }
     }
 
